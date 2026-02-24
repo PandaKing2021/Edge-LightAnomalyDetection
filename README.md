@@ -89,44 +89,6 @@ Output (Batch × 1)
 - **Edge Node**: Raspberry Pi 4B (standby: 0.5W, inference: 10W)
 - **Communication**: 0.2W power, 5ms transmission time
 
-## 📁 Project Structure
-
-```
-lunwen2/
-├── README.md                           # This file
-├── 论文.md                             # Original paper (Chinese)
-├── final_experiment_report_updated.md  # Comprehensive experiment report
-├── PROJECT_COMPLETION_SUMMARY.md       # Project completion summary
-├── datasets/                           # Dataset files
-│   ├── simulate/                       # Simulated dataset
-│   └── FD001/                          # NASA C-MAPSS FD001 dataset
-├── Simulate/                           # Simulation experiments
-│   ├── OneDCNN-LSTM/                   # Main hybrid model
-│   │   ├── ann_model.py                # Model architecture
-│   │   ├── ann_train.py                # Training script
-│   │   └── ann_evaluate.py             # Evaluation script
-│   ├── OneDCNN-LSTM_Quantizated/       # Quantization experiments
-│   │   └── ann_quantization.py         # Hybrid precision quantization
-│   ├── LSTM_only/                      # LSTM ablation model
-│   ├── OneDCNN_only/                   # 1DCNN ablation model
-│   ├── IsolationForest/                # Traditional ML baseline
-│   └── RuleBased/                      # Rule-based baseline
-├── FD001/                              # NASA dataset experiments
-│   └── (similar structure as Simulate/)
-├── results/                            # Experimental results
-│   ├── paper_figures/                  # 13 high-quality paper figures
-│   ├── final_optimization/             # Collaborative framework optimization
-│   ├── performance_data.csv            # Raw performance data
-│   └── quantization_report.md          # Quantization experiment report
-├── results_english/                    # English-translated figures directory
-│   ├── 63 PNG files                    # All figures with English text
-│   └── translation_terms.csv           # 97 technical term translations
-└── scripts/                            # Utility scripts
-    ├── convert_FD001_train.py          # NASA data preprocessing
-    ├── convert_FD001_test.py           # NASA test data conversion
-    ├── paper_figures_generator.py      # Figure generation
-    └── generate_english_figures.py     # English figure translation
-```
 
 ## 🚀 Getting Started
 
@@ -303,4 +265,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Project Completion Date**: February 24, 2026  
 **Status**: All experiments completed and validated ✅  
+
 **Ready for**: Paper writing and submission
