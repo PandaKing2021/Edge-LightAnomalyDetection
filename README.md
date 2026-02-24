@@ -188,42 +188,6 @@ python cooperative_inference_simulation.py
 - Optimal threshold (0.900) balances detection accuracy (F1=0.9944) and energy efficiency
 - Guard model wake-up rate reduced to 8.55%, minimizing unnecessary edge computations
 
-## 📊 Visualization
-
-The project includes **13 high-quality figures** suitable for academic publication:
-
-1. `performance_comparison.png` - Comprehensive model performance comparison
-2. `f1_comparison_simplified.png` - Simplified F1-score comparison across models
-3. `ablation_analysis_bar.png` - Bar chart of ablation study results
-4. `ablation_analysis_radar.png` - Radar chart for multi-metric ablation analysis
-5. `quantization_effect_comparison.png` - Quantization performance comparison
-6. `quantization_effect_summary.png` - Summary of quantization benefits
-7. `cooperative_framework_performance.png` - Collaborative framework performance curves
-8. `cooperative_framework_wakeup_rate.png` - Wake-up rate vs. threshold analysis
-9. `cooperative_framework_3d.png` - 3D trade-off analysis (F1, Energy, Threshold)
-10. `optimization_comparison.png` - Original vs. optimized framework comparison
-11. `optimization_comparison_summary.png` - Summary of optimization improvements
-12. `paper_summary_figure.png` - Comprehensive summary figure for paper
-13. `chart_list.md` - Complete chart listing and descriptions
-
-**English Translation**: All 63 figure files are available in `results_english/` with Chinese text translated to English using professional terminology.
-
-## 📝 Paper Support Materials
-
-### Complete Documentation
-- `final_experiment_report_updated.md`: Comprehensive experiment report with all analyses
-- `results/final_optimization/final_cooperative_optimization_report.md`: Detailed optimization process
-- `results/quantization_report.md`: Quantization experiment findings
-- `results/performance_comparison_fixed.md`: Corrected performance comparison tables
-
-### Data Files
-- `results/performance_data.csv`: Raw performance metrics for all experiments
-- `results/final_optimization/optimized_system_results.csv`: Optimized framework results
-- Model inference results in respective experiment directories
-
-### Translation Support
-- `results_english/translation_terms.csv`: 97 technical term translations (Chinese ↔ English)
-- Complete English figure directory with 63 PNG files
 
 ## 🎓 Citation
 
@@ -267,3 +231,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **Status**: All experiments completed and validated ✅  
 
 **Ready for**: Paper writing and submission
+
