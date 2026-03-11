@@ -22,72 +22,6 @@ The project addresses the challenge of deploying deep learning models on resourc
 | Edge-Cloud Collaborative Framework | LSTM sentry model pre-screening | 81.96% energy savings |
 | Hybrid Precision Quantization | CNN INT8 + LSTM FP32 | 1.42x speedup, <0.1% accuracy loss |
 
-## Project Structure
-
-```
-Edge-LightAnomalyDetection/
-├── README.md                    # Project documentation
-├── LICENSE                      # MIT License
-│
-├── cooperative_framework/       # Edge-cloud collaborative inference framework
-│   ├── __init__.py
-│   ├── config.py               # Configuration parameters
-│   ├── cooperative_inference.py # Collaborative inference logic
-│   ├── communication.py        # Communication module
-│   ├── energy_monitor.py       # Energy monitoring
-│   └── realistic_energy_simulation.py  # Energy simulation script
-│
-├── datasets/                    # Datasets
-│   ├── simulate/               # Simulated dataset (50,000 samples)
-│   │   ├── train_data.txt
-│   │   ├── val_data.txt
-│   │   ├── test_data.txt
-│   │   ├── training_history.json
-│   │   └── *.pth              # Data processing models
-│   └── NASA/                   # NASA C-MAPSS FD001
-│       ├── train_FD001.txt
-│       ├── test_FD001.txt
-│       └── ...
-│
-├── Simulate/                    # Simulated dataset experiments
-│   ├── OneDCNN-LSTM/           # Main hybrid model
-│   ├── OneDCNN-LSTM_Quantizated/ # Quantization experiments
-│   ├── Only_LSTM/              # Ablation: Pure LSTM
-│   ├── Only_OneDCNN/           # Ablation: Pure 1D-CNN
-│   ├── IsolationForest/        # Baseline: Isolation Forest
-│   └── Rule-Based/             # Baseline: Rule-based method
-│
-├── FD001/                       # NASA dataset experiments
-│   └── (same structure as Simulate/)
-│
-├── tests/                       # Testing and validation scripts
-│   ├── test_cooperative_framework.py
-│   ├── run_full_validation.py
-│   ├── run_validation_with_real_models.py
-│   └── conv_kernel_experiment.py
-│
-├── deployment/                   # Edge deployment
-│   └── raspberry_pi/
-│
-├── results/                      # Experimental results
-│   ├── paper_figures/           # Paper figures (Chinese)
-│   ├── english_figures/         # Paper figures (English)
-│   ├── final_optimization/      # Collaborative framework optimization
-│   ├── cooperative_energy_simulation/ # Energy simulation results
-│   ├── cooperative_validation/  # Collaborative validation
-│   ├── performance_data.csv     # Performance data
-│   ├── quantization_report.md   # Quantization report
-│   └── performance_comparison_fixed.md
-│
-└── scripts/                      # Utility scripts
-    ├── convert_FD001_train.py   # NASA data preprocessing
-    ├── convert_FD001_test.py    # NASA test data conversion
-    ├── create_dirs.py           # Directory creation tool
-    ├── cleanup_temp.py          # Temp file cleanup
-    ├── paper_figures_generator.py # Paper figure generation
-    └── generate_english_figures.py # English figure generation
-
-```
 
 ## Quick Start
 
@@ -223,3 +157,4 @@ This project is licensed under the MIT License.
 
 - NASA for providing the C-MAPSS dataset
 - PyTorch deep learning framework
+
