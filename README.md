@@ -79,19 +79,14 @@ Edge-LightAnomalyDetection/
 │   ├── quantization_report.md   # Quantization report
 │   └── performance_comparison_fixed.md
 │
-├── scripts/                      # Utility scripts
-│   ├── convert_FD001_train.py   # NASA data preprocessing
-│   ├── convert_FD001_test.py    # NASA test data conversion
-│   ├── create_dirs.py           # Directory creation tool
-│   ├── cleanup_temp.py          # Temp file cleanup
-│   ├── paper_figures_generator.py # Paper figure generation
-│   └── generate_english_figures.py # English figure generation
-│
-└── docs/                         # Documentation
-    ├── paper.md                 # Original paper
-    ├── IMPLEMENTATION_REPORT.md # Implementation report
-    ├── final_experiment_report.md # Experiment report
-    └── final_experiment_report_updated.md # Updated report
+└── scripts/                      # Utility scripts
+    ├── convert_FD001_train.py   # NASA data preprocessing
+    ├── convert_FD001_test.py    # NASA test data conversion
+    ├── create_dirs.py           # Directory creation tool
+    ├── cleanup_temp.py          # Temp file cleanup
+    ├── paper_figures_generator.py # Paper figure generation
+    └── generate_english_figures.py # English figure generation
+
 ```
 
 ## Quick Start
